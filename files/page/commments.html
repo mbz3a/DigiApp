@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../image/5f198988.ico"  type="image/icon">
+    
+    <title>Profile</title>
+</head>
+<body>
+    <div class="pro-container">
+        <div class="dash-left col">
+            <div class="left-top row fullwidth">
+                <div class="img-c row">
+                    <img src="../image/profile.svg" alt="">
+                </div>
+                <div class="text row">
+                    <p>
+                        username
+                    </p>
+                    <p>
+                        sample@somthing.com
+                    </p>
+                </div>
+            </div>
+            <div class="left-middle row"></div>
+            <div class="left-bottom row fullwidth">
+                <div class="lb-container">
+                    <ul>
+                        <li  >
+                            <span class='far fa-list-alt'></span>
+                            <span>
+                                سفارش های من
+                            </span>
+                        </li>
+                        <li  >
+                            <span class="far fa-comment"></span>
+                            <span>
+                                نظرات
+                            </span>
+                        </li>
+                        <li  >
+                            <span class="fas fa-map-signs"></span>
+                            <span>
+                                نشانی
+                            </span>
+                        </li>
+                        <li  >
+                            <span class="far fa-credit-card"></span>
+                            <span>
+                                کارت های هدیه
+                            </span>
+                        </li>
+                        <li  >
+                            <span class="far fa-envelope"></span>
+                            <span>
+                                پیغام ها
+                            </span>
+                        </li>
+                        <li  >
+                            <span class="far fa-clock"></span>
+                            <span>
+                                بازدیدهای اخیر
+                            </span>
+                        </li>
+                        <li  >
+                            <span class="far fa-user"  ></span>
+                            <span>
+                                اطلاعات حساب
+                            </span>
+                        </li>
+                        <li>
+                            <a href="../../index.html">
+                                <span class="fas fa-sign-out-alt"></span>
+                                <span>
+                                    خروج
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="dash-right col">
+            
+            <div class="comments  tbascontent " id="comments" style="display: flex;">
+                <div class="comments-container">
+                    <div class="title">
+                        <h2>
+                            نظرات
+                        </h2>
+                    </div>
+                    <div class="cmmts-body">
+                        <div class="tabs-row2 row fullwidth">
+                            <div class="tabcontainer2">
+                                <div class="tabs-btn2 col w18 "  onclick="tabs2(event,'wait_for_vote')">
+                                    <div class="title3">
+                                        در انتطار ثبت نظر
+                                    </div>
+                                    <div class="underline2"></div>
+                                </div>
+                                <div class="tabs-btn2 col w18 " onclick="tabs2(event,'votes')">
+                                    <div class="title3">
+                                        نظرات من
+                                    </div>
+                                    <div class="underline2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tbody2">
+                            <div class="tab_content2" id="wait_for_vote">
+                                <div class="titleofcomments">
+                                    نظرتان درباره کالاهایی که خریده‌اید چیست؟
+                                    <span class="below">
+                                        با ثبت نظر در مورد کالاهای خریداری شده خود، ۵ امتیاز دیجی‌کلاب دریافت می‌کنید. 
+                                    </span> 
+                                </div>
+                                <div class="lofi_comments">
+                                    <div class="items_com row">
+                                        <div class="image col w15">
+                                            <img src="../image/mobile.jpg" alt="af">
+                                        </div>
+                                        <div class="text_com col w70">
+                                            <p>
+                                                موبایل سامسونگ مدل 580 
+                                            </p>
+                                        </div>
+                                        <div class="send col w15">
+                                            <p>
+                                                ثبت دیدگاه
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="items_com row">
+                                        <div class="image col w15">
+                                            <img src="../image/mobile.jpg" alt="af">
+                                        </div>
+                                        <div class="text_com col w70">
+                                            <p>
+                                                موبایل سامسونگ مدل 580 
+                                            </p>
+                                        </div>
+                                        <div class="send col w15">
+                                            <p>
+                                                ثبت دیدگاه
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="items_com row">
+                                        <div class="image col w15">
+                                            <img src="../image/mobile.jpg" alt="af">
+                                        </div>
+                                        <div class="text_com col w70">
+                                            <p>
+                                                موبایل سامسونگ مدل 580 
+                                            </p>
+                                        </div>
+                                        <div class="send col w15">
+                                            <p>
+                                                ثبت دیدگاه
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_content2" id="votes">
+                                <div class="votes-container">
+                                    <div class="voted_items">
+                                        <div class="img col w15">
+                                            <img src="../image/mobile.jpg" alt="">
+                                        </div>
+                                        <div class="expain col w65">
+                                           <div class="exp-con">
+                                                <p>
+                                                    باتری 
+                                                </p>
+                                                <p>
+                                                    <span class="use-digit">
+                                                        3
+                                                    </span>
+                                                    <span>
+                                                        در مورد خرید این محصول مطمئن نیستم.
+                                                    </span>
+                                                </p>
+                                                <p>
+                                                    باتریش چطوره به نظر شما کار بران به نظر من خیلی بده 
+                                                </p>
+                                           </div>
+                                        </div>
+                                        <div class="verified col w20">
+                                           <div class="vfd-container">
+                                                تایید شده 
+                                           </div>
+                                           <div class="more-icon">
+                                                <img src="../image/dot.svg" alt="">
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>      
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../javascripts/scripts.js"></script>
+</body>
+</html>
+
